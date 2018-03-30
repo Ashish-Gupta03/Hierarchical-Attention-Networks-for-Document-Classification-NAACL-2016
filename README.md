@@ -5,5 +5,4 @@ Requirements:-
 * Keras>=2.1.x
 * Tensroflow>=1.4.x
 
-This code uses data from Kaggle which is available at this link.
-https://www.kaggle.com/c/word2vec-nlp-tutorial
+This code uses data from Kaggle which is available at this [link](https://www.kaggle.com/c/word2vec-nlp-tutorial).
