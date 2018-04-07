@@ -128,8 +128,8 @@ def createHierarchicalAttentionModel(maxSeq, embWeights=None, embeddingSize = No
 	wordInp = Input(shape=(maxSeq,),dtype='int32')	
 	if embWeights is None:
 		x = Embedding(vocabSize, embeddingSize, input_length=maxSeq,trainable=True)(wordInp)
-    else:
-    	x = Embedding(embWeights.shape[0], embWeights.shape[1], weights=[embWeights], trainable=False)(wordInp)    
+        else:
+    		x = Embedding(embWeights.shape[0], embWeights.shape[1], weights=[embWeights], trainable=False)(wordInp)    
 	# if dropWordEmb!=0.0:
 	# 	x = Dropout(dropWordEmb)(x)
 	wordRNN = Bidirectional(GRU(wordRnnSize,return_sequences=True))(x)
