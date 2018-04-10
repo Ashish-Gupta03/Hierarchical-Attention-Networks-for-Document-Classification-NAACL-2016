@@ -8,4 +8,6 @@ Requirements:-
 
 Run train.ipynb to get final sentiment labels.
 
+The paper implemented is available [here](https://www.cs.cmu.edu/~hovy/papers/16HLT-hierarchical-attention-networks.pdf).
+
 This code uses data from Kaggle which is available at this [link](https://www.kaggle.com/c/word2vec-nlp-tutorial).
